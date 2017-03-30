@@ -34,7 +34,7 @@ html,body {padding:0; margin:0;}
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 50px;
   background-image: url("evhs.jpg");
-
+  background-attachment: fixed;
   padding-top: 160px;
   padding-right: 30px;
   padding-bottom: 160px;
@@ -73,7 +73,7 @@ li{
 }
 .activties {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: white;
+
   padding-top: 120px;
   padding-right: 30px;
   padding-bottom: 120px;
