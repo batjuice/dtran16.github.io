@@ -1,0 +1,117 @@
+html,body {padding:0; margin:0;}
+
+.nav {
+    list-style-type: none;
+}
+.nav ul{
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav li{
+    float: right;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:
+}
+.nav li a:hover{
+    background-color: pink;
+}
+.me{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 50px;
+  background-image: url("evhs.jpg");
+
+  padding-top: 160px;
+  padding-right: 30px;
+  padding-bottom: 160px;
+  padding-left: 30px;
+  text-align: center;
+  background-size: 100%;
+}
+.about{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: lightblue;
+
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  text-align: center;
+
+
+}
+
+.about p{
+  font-size: 25px;
+
+  color: black;
+
+}
+
+h2{
+  font-size: 50px;
+}
+body{
+  align-items: center;
+}
+li{
+  display: inline;
+}
+.activties {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: white;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  text-align: center;
+
+}
+.activties ul{
+
+}
+.activties li{
+
+}
+
+.work{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: white;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  text-align: center;
+}
+.achievements{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  text-align: center;
+  background-color: lightblue;
+}
+.contact{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-color: gray;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  padding-left: 30px;
+  text-align: center;
+}
