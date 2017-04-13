@@ -102,9 +102,9 @@ li{
 .achievements{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   padding-top: 120px;
-  padding-right: 160px;
+  padding-right: 80px;
   padding-bottom: 120px;
-  padding-left: 160px;
+  padding-left: 80px;
   text-align: center;
   background-color: teal;
 }
