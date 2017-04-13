@@ -8,7 +8,7 @@ html,body {padding:0; margin:0;}
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,40 +25,41 @@ html,body {padding:0; margin:0;}
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:
+
 }
 .nav li a:hover{
-    background-color: pink;
+    background-color: deepskyblue;
 }
 .me{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 50px;
-  background-image: url("evhs.jpg");
+  background-image: url("Dylan2.jpg");
   background-attachment: fixed;
+  background-size: 100%;
   padding-top: 160px;
   padding-right: 30px;
   padding-bottom: 160px;
   padding-left: 30px;
   text-align: center;
-  background-size: 100%;
+  color: black;
 }
 .about{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-color: lightblue;
+  background-color: white;
 
   padding-top: 120px;
   padding-right: 30px;
   padding-bottom: 120px;
   padding-left: 30px;
   text-align: center;
-
+  color: black;
 
 }
 
 .about p{
   font-size: 25px;
 
-  color: black;
+
 
 }
 
@@ -73,21 +74,55 @@ li{
 }
 .activties {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-
+  background-image: url("wallpaper.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
   padding-top: 120px;
-  padding-right: 30px;
+  padding-right: 80px;
   padding-bottom: 120px;
-  padding-left: 30px;
+  padding-left: 80px;
   text-align: center;
+  color: white;
 
 }
-.activties ul{
+.activties ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.activties li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
 
 }
-.activties li{
+.achievements{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-top: 120px;
+  padding-right: 160px;
+  padding-bottom: 120px;
+  padding-left: 160px;
+  text-align: center;
+  background-color: teal;
+}
+.achievements ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+.achievements li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
 
 }
-
 .work{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: white;
@@ -96,15 +131,6 @@ li{
   padding-bottom: 120px;
   padding-left: 30px;
   text-align: center;
-}
-.achievements{
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  padding-top: 120px;
-  padding-right: 30px;
-  padding-bottom: 120px;
-  padding-left: 30px;
-  text-align: center;
-  background-color: lightblue;
 }
 .contact{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
